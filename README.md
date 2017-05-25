@@ -4,8 +4,9 @@ Coarsening (reduction) algorithms with linear-space and sub-linear-space for inf
 
 
 ## Usage
-* Given a graph with edge probabilities, it generates a coarsened graph and vertex mapping (vetex ID in the original graph to vertex ID in the coarsened graph).
-* OpenMP is necessary.
+Given a graph with edge probabilities, it generates a coarsened graph and vertex mapping (vetex ID in the original graph to vertex ID in the coarsened graph).
+
+OpenMP is necessary.
 
     $ cd linear-space/sublinear-space
     $ make
