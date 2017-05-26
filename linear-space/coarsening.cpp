@@ -2,7 +2,8 @@
 
 using namespace std;
 
-inline long long int make_pair_value(const Node n, const int p0, const int p1){
+//inline long long int make_pair_value(const Node n, const int p0, const int p1){
+inline long long int make_pair_value(const Node n, const Node p0, const Node p1){
   return ((long long int)n) * p0 + p1;
 }
 
